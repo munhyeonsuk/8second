@@ -14,6 +14,20 @@ body{
         font-size: 16px;
         font-weight: 600;
         letter-spacing: 10%;
+        .d1{//대메뉴
+            &:hover{
+                ul{
+                    max-height: 200px;
+                }
+            }
+            ul{
+                white-space: nowrap;
+                //max-height: 0;
+                //transition: max-height 0.5s;
+                //overflow: hidden;
+                
+            }
+        }
     }
     .member{
         font-size: 13px;

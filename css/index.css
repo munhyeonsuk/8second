@@ -11,6 +11,12 @@ body li a {
   font-weight: 600;
   letter-spacing: 10%;
 }
+#hd .gnb .d1:hover ul {
+  max-height: 200px;
+}
+#hd .gnb .d1 ul {
+  white-space: nowrap;
+}
 #hd .member {
   font-size: 13px;
   font-weight: 500;
