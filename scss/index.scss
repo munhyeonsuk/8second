@@ -3,7 +3,7 @@ $mainColor : #C70125;
 body{
     font-family: 'Noto Sans KR';
 
-    li a{
+    a{
         text-decoration: none;
         color: black;
     }
@@ -12,20 +12,43 @@ body{
 #hd{
     .gnb{
         font-size: 16px;
-        font-weight: 600;
+        font-weight: 700;
         letter-spacing: 10%;
+        position: relative;
+        &::before{
+            content: "";
+            position: absolute;
+            top: 100%;
+            height: 0;
+            left: 0;
+            right: 0;
+            transition: 0.5s;
+            background-color: white;
+            
+        }
+
         .d1{//대메뉴
+            
             &:hover{
                 ul{
-                    max-height: 200px;
+                    max-height: 300px;
                 }
             }
             ul{
                 white-space: nowrap;
-                //max-height: 0;
-                //transition: max-height 0.5s;
-                //overflow: hidden;
+                font-weight: 400;
+                max-height: 0;
+                transition: max-height 0.3s;
+                overflow: hidden;
+                line-height: 2.2;
                 
+                
+            }
+            li:hover{
+                a{
+                    border-bottom: 1px solid black;
+                    font-weight: 700;
+                }
             }
         }
     }
@@ -36,6 +59,57 @@ body{
     }
 }
 
+#new{
+    .swiper {
+        width: 100%;
+        height: 100%;
+      }
+  
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+
+        .newDes{
+            text-align: left;
+            .newText{
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                letter-spacing: -1.2px;
+            }
+            .newName{
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 300;
+                line-height: normal;
+                letter-spacing: -1.4px;
+            }
+            .newPrice{
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+                letter-spacing: -1.8px;
+            }
+
+        }
+      }
+  
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+     
+}
 
 #ft{ 
     .footerMenu{
