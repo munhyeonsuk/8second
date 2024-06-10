@@ -87,6 +87,64 @@ body a {
   -o-object-fit: cover;
      object-fit: cover;
 }
+#new .centerbox {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  width: 180px;
+  height: 50px;
+  border: solid 1px black;
+}
+#new .centerbox a {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -1.6px;
+}
+
+#project .projuectDes {
+  background-color: #C70125;
+}
+#project .projuectDes .projectText {
+  text-align: start;
+}
+#project .projuectDes .projectText .projectText1 {
+  color: white;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -1.2px;
+}
+#project .projuectDes .projectText .projectText2 {
+  color: white;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -3.4px;
+}
+#project .projuectDes .projectText .projectText3 {
+  color: white;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -1.6px;
+}
+#project .projuectDes .sidebox {
+  width: 180px;
+  height: 50px;
+  border: solid 1px white;
+}
+#project .projuectDes .sidebox a {
+  color: white;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -1.6px;
+}
 
 #ft .footerMenu li {
   font-size: 15px;
@@ -100,4 +158,5 @@ body a {
   font-size: 15px;
   font-weight: 300;
   white-space: nowrap;
+  display: flex;
 }

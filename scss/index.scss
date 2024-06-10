@@ -9,6 +9,8 @@ body{
     }
 }
 
+
+
 #hd{
     .gnb{
         font-size: 16px;
@@ -108,8 +110,70 @@ body{
         height: 100%;
         object-fit: cover;
       }
+      .centerbox{
+        position: relative; 
+        left: 50%; 
+        transform: translate(-50%);
+        width: 180px;
+        height: 50px;
+        border: solid 1px black;
+        a{
+            font-size: 16px;
+            font-weight: 600;
+            line-height: normal;
+            letter-spacing: -1.6px;
+        }
+     }
      
 }
+
+
+#project{
+    .projuectDes{
+        background-color: #C70125;
+        .projectText{
+            text-align: start;
+            .projectText1{
+                color: white;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                letter-spacing: -1.2px;
+            }
+            .projectText2{
+                color: white;
+                font-size: 34px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+                letter-spacing: -3.4px;
+            }
+            .projectText3{
+                color: white;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                letter-spacing: -1.6px;
+            }
+        }
+        .sidebox{
+            width: 180px;
+            height: 50px;
+            border: solid 1px white;
+            a{
+                color: white;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+                letter-spacing: -1.6px;
+            }
+        }
+    }
+}
+
 
 #ft{ 
     .footerMenu{
@@ -128,6 +192,7 @@ body{
         font-size: 15px;
         font-weight: 300;
         white-space: nowrap;
+        display: flex;
     }
 
 }
