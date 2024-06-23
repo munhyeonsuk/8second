@@ -6,6 +6,18 @@ body a {
   color: black;
 }
 
+.container-1400 {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container-1824 {
+  max-width: 1824px;
+  width: 100%;
+  margin: 0 auto;
+}
+
 #hd .gnb {
   font-size: 16px;
   font-weight: 700;
@@ -100,6 +112,39 @@ body a {
   font-weight: 600;
   line-height: normal;
   letter-spacing: -1.6px;
+}
+
+#video .videoText {
+  background-color: #C70125;
+  color: white;
+}
+#video .videoText .videoText1 {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -1.4px;
+}
+#video .videoText .videoText2 {
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+  letter-spacing: -3px;
+}
+#video .videoText .videoText3 {
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -1.5px;
+}
+#video .videoText .videoText4 {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: -2.4px;
 }
 
 #project .projuectDes {

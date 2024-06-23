@@ -9,7 +9,16 @@ body{
     }
 }
 
-
+.container-1400{
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+}
+.container-1824{
+    max-width: 1824px;
+    width: 100%;
+    margin: 0 auto;
+}
 
 #hd{
     .gnb{
@@ -127,10 +136,45 @@ body{
      
 }
 
+#video{
+    .videoText{
+        background-color: $mainColor;
+        color: white;
+        .videoText1{
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            letter-spacing: -1.4px;
+        }
+        .videoText2{
+            font-size: 30px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 40px; 
+            letter-spacing: -3px;
+        }
+        .videoText3{
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            letter-spacing: -1.5px;
+        }
+        .videoText4{
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+            letter-spacing: -2.4px;
+        }
+    }
+    
+}
 
 #project{
     .projuectDes{
-        background-color: #C70125;
+        background-color: $mainColor;
         .projectText{
             text-align: start;
             .projectText1{
