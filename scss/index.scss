@@ -69,6 +69,63 @@ body{
         letter-spacing: 10%;
     }
 }
+#mainbanner{
+    .mainbannerbox{
+        top: 60px;
+        width: 1824px;
+        height: 300px;
+        background-color: $mainColor;
+        overflow: hidden;
+        img{
+            padding: 20px;
+        }
+        span{
+            display: block;
+            text-align: end;
+            padding: 0 20px;
+        }
+        .maintext1{
+            color: #FFF;
+            font-family: "Noto Sans KR";
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            letter-spacing: -4px;
+        }
+        .maintext2{
+            color: #FFF;
+            font-family: "Noto Sans KR";
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            letter-spacing: -2.4px;
+        }
+    }
+    .mainimgtext{
+        display: block;
+        top: 60%;
+        left: 40%;
+        .mainimgtext1{
+            color: #FFF;
+            text-align: center;
+            font-family: "Noto Sans KR";
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+        }
+        .mainimgtext2{
+            color: #FFF;
+            font-family: "Noto Sans KR";
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+        }
+    }
+}
 
 #new{
     .swiper {
