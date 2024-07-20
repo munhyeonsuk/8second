@@ -1,25 +1,5 @@
 $mainColor : #C70125;
 
-body{
-    font-family: 'Noto Sans KR';
-
-    a{
-        text-decoration: none;
-        color: black;
-    }
-}
-
-.container-1400{
-    max-width: 1400px;
-    width: 100%;
-    margin: 0 auto;
-}
-.container-1824{
-    max-width: 1824px;
-    width: 100%;
-    margin: 0 auto;
-}
-
 #hd{
     .gnb{
         font-size: 16px;
@@ -39,7 +19,7 @@ body{
         }
 
         .d1{//대메뉴
-            
+            list-style: none;
             &:hover{
                 ul{
                     max-height: 300px;
@@ -60,6 +40,10 @@ body{
                     border-bottom: 1px solid black;
                     font-weight: 700;
                 }
+            }
+
+            .nav_gnb{
+                border: black 1px solid;
             }
         }
     }
@@ -103,28 +87,7 @@ body{
             letter-spacing: -2.4px;
         }
     }
-    .mainimgtext{
-        display: block;
-        top: 60%;
-        left: 40%;
-        .mainimgtext1{
-            color: #FFF;
-            text-align: center;
-            font-family: "Noto Sans KR";
-            font-size: 24px;
-            font-style: normal;
-            font-weight: 600;
-            line-height: normal;
-        }
-        .mainimgtext2{
-            color: #FFF;
-            font-family: "Noto Sans KR";
-            font-size: 16px;
-            font-style: normal;
-            font-weight: 600;
-            line-height: normal;
-        }
-    }
+  
 }
 
 #new{
@@ -143,30 +106,8 @@ body{
         flex-direction: column;
         
 
-        .newDes{
+        .proDes{
             text-align: left;
-            .newText{
-                font-size: 12px;
-                font-style: normal;
-                font-weight: 400;
-                line-height: normal;
-                letter-spacing: -1.2px;
-            }
-            .newName{
-                font-size: 14px;
-                font-style: normal;
-                font-weight: 300;
-                line-height: normal;
-                letter-spacing: -1.4px;
-            }
-            .newPrice{
-                font-size: 18px;
-                font-style: normal;
-                font-weight: 600;
-                line-height: normal;
-                letter-spacing: -1.8px;
-            }
-
         }
       }
   
@@ -176,22 +117,16 @@ body{
         height: 100%;
         object-fit: cover;
       }
-      .centerbox{
-        position: relative; 
-        left: 50%; 
-        transform: translate(-50%);
-        width: 180px;
-        height: 50px;
-        border: solid 1px black;
-        a{
-            font-size: 16px;
-            font-weight: 600;
-            line-height: normal;
-            letter-spacing: -1.6px;
-        }
-     }
-     
 }
+
+.centerbox{
+    position: relative; 
+    left: 50%; 
+    transform: translate(-50%);
+    width: 180px;
+    height: 50px;
+    border: solid 1px black;
+ }
 
 #lookBook{
     .lookBookText{
@@ -199,32 +134,75 @@ body{
         left: 0;
         width: 100%;
         height: 100%;
-            
-            .text8seconds{
-                color: white;
-                font-size: 13px;
-                font-style: normal;
-                font-weight: 600;
-                line-height: normal;
-                letter-spacing: -1.3px;
-
-            }
-            .textdes{
-                color: white;
-                font-size: 18px;
-                font-style: normal;
-                font-weight: 600;
-                line-height: normal;
-                letter-spacing: -1.8px;
-            }
-           
     }
     .imgUp{
         transform: translateY(-26.63%);
     }
 }
 
+#ranking{
+    .swiper {
+        width: 100%;
+        height: 100%;
+      }
+  
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        .ranknum{
+            width: 30px;
+            height: 42px;
+            flex-shrink: 0;
+            background-color: black;
+            color: white;
+            top: 0;
+            left: 0;
+            color: #FFF;
+            font-family: Arial;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+        .proDes{
+            text-align: left;
+            .price{
+                display: flex;
+                .proPrice{
+                    transform: translateY(-3px);
+                }
+            }
+        }
+      }
+  
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+}
+
 #video{
+    .videoImg{
+        display: inline-block;
+        position: relative;
+        &::after{
+            position: absolute;
+            content: '';
+            width: 80px;
+            height: 80px;
+            color: black;
+            right: 0px;
+            bottom: 0px;
+
+        }
+    }
     .videoText{
         background-color: $mainColor;
         color: white;
@@ -265,30 +243,7 @@ body{
         background-color: $mainColor;
         .projectText{
             text-align: start;
-            .projectText1{
-                color: white;
-                font-size: 12px;
-                font-style: normal;
-                font-weight: 500;
-                line-height: normal;
-                letter-spacing: -1.2px;
-            }
-            .projectText2{
-                color: white;
-                font-size: 34px;
-                font-style: normal;
-                font-weight: 600;
-                line-height: normal;
-                letter-spacing: -3.4px;
-            }
-            .projectText3{
-                color: white;
-                font-size: 16px;
-                font-style: normal;
-                font-weight: 400;
-                line-height: normal;
-                letter-spacing: -1.6px;
-            }
+           
         }
         .sidebox{
             width: 180px;
@@ -296,11 +251,6 @@ body{
             border: solid 1px white;
             a{
                 color: white;
-                font-size: 16px;
-                font-style: normal;
-                font-weight: 600;
-                line-height: normal;
-                letter-spacing: -1.6px;
             }
         }
     }

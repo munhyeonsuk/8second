@@ -1,0 +1,140 @@
+$mainColor : #C70125;
+
+body{
+    font-family: 'Noto Sans KR';
+
+    a{
+        text-decoration: none;
+        color: black;
+    }
+}
+
+.container-1400{
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+}
+.container-1824{
+    max-width: 1824px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+//메인배너
+.mainimgtext{
+    display: block;
+    top: 60%;
+    left: 40%;
+    .mainimgtext1{
+        color: #FFF;
+        text-align: center;
+        font-family: "Noto Sans KR";
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+    .mainimgtext2{
+        color: #FFF;
+        font-family: "Noto Sans KR";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+}
+
+//신상품, 랭킹
+.proText{
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1.2px;
+}
+.proName{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: -1.4px;
+}
+.proPrice{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -1.8px;
+}
+
+.boxtext{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -1.6px;
+}
+.oriproPrice{
+    color: #9D9D9D;
+    font-family: "Noto Sans KR";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1.5px;
+    text-decoration-line: strikethrough;
+}
+.proSale{
+    color: #2D42B0;
+    font-family: "Noto Sans KR";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.4px;
+}
+
+
+//룩북
+.text8seconds{
+    color: white;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -1.3px;
+
+}
+.textdes{
+    color: white;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -1.8px;
+}
+
+//기획전
+.projectText1{
+    color: white;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -1.2px;
+}
+.projectText2{
+    color: white;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -3.4px;
+}
+.projectText3{
+    color: white;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1.6px;
+}
