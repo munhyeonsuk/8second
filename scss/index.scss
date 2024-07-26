@@ -18,22 +18,19 @@ $mainColor : #C70125;
             
         }
 
-        .d1{//대메뉴
+        .d1{
             list-style: none;
             &:hover{
-                ul{
+                z-index: 1000;
+                .nav_gnb{
                     max-height: 300px;
+                    border-color:black;
                 }
             }
             ul{
                 white-space: nowrap;
                 font-weight: 400;
-                max-height: 0;
-                transition: max-height 0.3s;
-                overflow: hidden;
                 line-height: 2.2;
-                
-                
             }
             li:hover{
                 a{
@@ -43,7 +40,10 @@ $mainColor : #C70125;
             }
 
             .nav_gnb{
-                border: black 1px solid;
+                border: transparent 1px solid;
+                max-height: 0;
+                transition: max-height 0.3s;
+                overflow: hidden;
             }
         }
     }
@@ -233,6 +233,8 @@ $mainColor : #C70125;
             font-weight: 300;
             line-height: normal;
             letter-spacing: -2.4px;
+            position: relative;
+            top: 200px;
         }
     }
     

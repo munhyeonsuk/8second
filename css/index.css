@@ -17,15 +17,16 @@
 #hd .gnb .d1 {
   list-style: none;
 }
-#hd .gnb .d1:hover ul {
+#hd .gnb .d1:hover {
+  z-index: 1000;
+}
+#hd .gnb .d1:hover .nav_gnb {
   max-height: 300px;
+  border-color: black;
 }
 #hd .gnb .d1 ul {
   white-space: nowrap;
   font-weight: 400;
-  max-height: 0;
-  transition: max-height 0.3s;
-  overflow: hidden;
   line-height: 2.2;
 }
 #hd .gnb .d1 li:hover a {
@@ -33,7 +34,10 @@
   font-weight: 700;
 }
 #hd .gnb .d1 .nav_gnb {
-  border: black 1px solid;
+  border: transparent 1px solid;
+  max-height: 0;
+  transition: max-height 0.3s;
+  overflow: hidden;
 }
 #hd .member {
   font-size: 13px;
@@ -165,13 +169,16 @@
 
 #video .videoImg {
   display: inline-block;
+  position: relative;
 }
 #video .videoImg::after {
+  position: absolute;
   content: "";
   width: 80px;
   height: 80px;
-  background-color: black;
-  opacity: 0.6;
+  color: black;
+  right: 0px;
+  bottom: 0px;
 }
 #video .videoText {
   background-color: #C70125;
@@ -204,8 +211,8 @@
   font-weight: 300;
   line-height: normal;
   letter-spacing: -2.4px;
-  display: flex;
-  align-items: flex-end;
+  position: relative;
+  top: 200px;
 }
 
 #project .projuectDes {
