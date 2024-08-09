@@ -21,7 +21,8 @@ body a {
 .mainimgtext {
   display: block;
   top: 60%;
-  left: 40%;
+  left: 35%;
+  height: 60vh;
 }
 .mainimgtext .mainimgtext1 {
   color: #FFF;
