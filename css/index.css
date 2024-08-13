@@ -79,6 +79,10 @@
   letter-spacing: -2.4px;
 }
 
+#new {
+  margin-bottom: 50px;
+  height: 500px;
+}
 #new .swiper {
   width: 100%;
   height: 100%;
@@ -103,6 +107,34 @@
      object-fit: cover;
 }
 
+#newTab {
+  margin: 20px auto 0;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+#newTab li {
+  width: 50%;
+}
+#newTab li button {
+  display: block;
+  border: 0;
+  background: none;
+  border: none;
+  text-align: center;
+  border: 0;
+}
+#newTab li .newslide {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  display: none;
+}
+#newTab .on .newslide {
+  display: block;
+}
+
 .centerbox {
   position: relative;
   left: 50%;
@@ -119,7 +151,7 @@
   height: 100%;
 }
 #lookBook .imgUp {
-  transform: translateY(-26.63%);
+  transform: translateY(-16.3%);
 }
 
 #ranking .swiper {

@@ -44,6 +44,8 @@
     <!-- 커스터마이징 -->
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/common.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
 
 </head>
 <body>
@@ -176,142 +178,226 @@
     </div>
     </section>
 
-    <section id="new" class="position-relative container-1400">
+    <section id="new" class=" container-1400">
         <div class="container text-center">
             <h2>신상품</h2>
-            <div class="d-flex justify-content-center">
+            <!-- <div class="d-flex justify-content-center">
                 <a href="">여성</a>
                 <p>|</p>
                 <a href="">남성</a>
+            </div> -->
+            <ul id="newTab">
+                <li class="on">
+                    <button>여성</button>
+                    <div class="newslide">
+                        <div class="swiper SwiperNew">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide"><img src="./img/new1.jpg" alt="">
+                                    <div class="proDes col-12">
+                                        <p class="proText mb-0">[8 seconds]</p>
+                                        <p class="proName text-nowrap mb-0">코튼 라운드넥 볼륨 소매 니트 - 블루</p>
+                                        <p class="proPrice">49,000</p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide"><img src="./img/new1.jpg" alt="">
+                                    <div class="proDes col-12">
+                                        <p class="proText mb-0">[8 seconds]</p>
+                                        <p class="proName text-nowrap mb-0">코튼 라운드넥 볼륨 소매 니트 - 블루</p>
+                                        <p class="proPrice">49,000</p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide"><img src="./img/new1.jpg" alt="">
+                                    <div class="proDes col-12">
+                                        <p class="proText mb-0">[8 seconds]</p>
+                                        <p class="proName text-nowrap mb-0">코튼 라운드넥 볼륨 소매 니트 - 블루</p>
+                                        <p class="proPrice">49,000</p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide"><img src="./img/new1.jpg" alt="">
+                                    <div class="proDes col-12">
+                                        <p class="proText mb-0">[8 seconds]</p>
+                                        <p class="proName text-nowrap mb-0">코튼 라운드넥 볼륨 소매 니트 - 블루</p>
+                                        <p class="proPrice">49,000</p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide"><img src="./img/new1.jpg" alt="">
+                                    <div class="proDes col-12">
+                                        <p class="proText mb-0">[8 seconds]</p>
+                                        <p class="proName text-nowrap mb-0">코튼 라운드넥 볼륨 소매 니트 - 블루</p>
+                                        <p class="proPrice">49,000</p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide"><img src="./img/new1.jpg" alt="">
+                                    <div class="proDes col-12">
+                                        <p class="proText mb-0">[8 seconds]</p>
+                                        <p class="proName text-nowrap mb-0">코튼 라운드넥 볼륨 소매 니트 - 블루</p>
+                                        <p class="proPrice">49,000</p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide"><img src="./img/new1.jpg" alt="">
+                                    <div class="proDes col-12">
+                                        <p class="proText mb-0">[8 seconds]</p>
+                                        <p class="proName text-nowrap mb-0">코튼 라운드넥 볼륨 소매 니트 - 블루</p>
+                                        <p class="proPrice">49,000</p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide"><img src="./img/new1.jpg" alt="">
+                                    <div class="proDes col-12">
+                                        <p class="proText mb-0">[8 seconds]</p>
+                                        <p class="proName text-nowrap mb-0">코튼 라운드넥 볼륨 소매 니트 - 블루</p>
+                                        <p class="proPrice">49,000</p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide"><img src="./img/new1.jpg" alt="">
+                                    <div class="proDes col-12">
+                                        <p class="proText mb-0">[8 seconds]</p>
+                                        <p class="proName text-nowrap mb-0">코튼 라운드넥 볼륨 소매 니트 - 블루</p>
+                                        <p class="proPrice">49,000</p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide"><img src="./img/new1.jpg" alt="">
+                                    <div class="proDes col-12">
+                                        <p class="proText mb-0">[8 seconds]</p>
+                                        <p class="proName text-nowrap mb-0">코튼 라운드넥 볼륨 소매 니트 - 블루</p>
+                                        <p class="proPrice">49,000</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <button>남성</button>
+                    <div class="newslide">
+                        <div class="swiper SwiperNew">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide"><img src="./img/new2.jpg" alt="">
+                                    <div class="proDes col-12">
+                                        <p class="proText mb-0">[8 seconds]</p>
+                                        <p class="proName text-nowrap mb-0">코튼 라운드넥 볼륨 소매 니트 - 블루</p>
+                                        <p class="proPrice">49,000</p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide"><img src="./img/new2.jpg" alt="">
+                                    <div class="proDes col-12">
+                                        <p class="proText mb-0">[8 seconds]</p>
+                                        <p class="proName text-nowrap mb-0">코튼 라운드넥 볼륨 소매 니트 - 블루</p>
+                                        <p class="proPrice">49,000</p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide"><img src="./img/new2.jpg" alt="">
+                                    <div class="proDes col-12">
+                                        <p class="proText mb-0">[8 seconds]</p>
+                                        <p class="proName text-nowrap mb-0">코튼 라운드넥 볼륨 소매 니트 - 블루</p>
+                                        <p class="proPrice">49,000</p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide"><img src="./img/new2.jpg" alt="">
+                                    <div class="proDes col-12">
+                                        <p class="proText mb-0">[8 seconds]</p>
+                                        <p class="proName text-nowrap mb-0">코튼 라운드넥 볼륨 소매 니트 - 블루</p>
+                                        <p class="proPrice">49,000</p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide"><img src="./img/new2.jpg" alt="">
+                                    <div class="proDes col-12">
+                                        <p class="proText mb-0">[8 seconds]</p>
+                                        <p class="proName text-nowrap mb-0">코튼 라운드넥 볼륨 소매 니트 - 블루</p>
+                                        <p class="proPrice">49,000</p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide"><img src="./img/new2.jpg" alt="">
+                                    <div class="proDes col-12">
+                                        <p class="proText mb-0">[8 seconds]</p>
+                                        <p class="proName text-nowrap mb-0">코튼 라운드넥 볼륨 소매 니트 - 블루</p>
+                                        <p class="proPrice">49,000</p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide"><img src="./img/new2.jpg" alt="">
+                                    <div class="proDes col-12">
+                                        <p class="proText mb-0">[8 seconds]</p>
+                                        <p class="proName text-nowrap mb-0">코튼 라운드넥 볼륨 소매 니트 - 블루</p>
+                                        <p class="proPrice">49,000</p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide"><img src="./img/new2.jpg" alt="">
+                                    <div class="proDes col-12">
+                                        <p class="proText mb-0">[8 seconds]</p>
+                                        <p class="proName text-nowrap mb-0">코튼 라운드넥 볼륨 소매 니트 - 블루</p>
+                                        <p class="proPrice">49,000</p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide"><img src="./img/new2.jpg" alt="">
+                                    <div class="proDes col-12">
+                                        <p class="proText mb-0">[8 seconds]</p>
+                                        <p class="proName text-nowrap mb-0">코튼 라운드넥 볼륨 소매 니트 - 블루</p>
+                                        <p class="proPrice">49,000</p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide"><img src="./img/new2.jpg" alt="">
+                                    <div class="proDes col-12">
+                                        <p class="proText mb-0">[8 seconds]</p>
+                                        <p class="proName text-nowrap mb-0">코튼 라운드넥 볼륨 소매 니트 - 블루</p>
+                                        <p class="proPrice">49,000</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div class="centerbox boxtext d-flex justify-content-center align-items-center">
+                <a href="">신상품 바로가기</a>
             </div>
-            <div class="swiper SwiperNew">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide"><img src="./img/new1.jpg" alt="">
-                        <div class="proDes col-12">
-                            <p class="proText mb-0">[8 seconds]</p>
-                            <p class="proName text-nowrap mb-0">코튼 라운드넥 볼륨 소매 니트 - 블루</p>
-                            <p class="proPrice">49,000</p>
-                        </div>
-                    </div>
-                    <div class="swiper-slide"><img src="./img/new1.jpg" alt="">
-                        <div class="proDes col-12">
-                            <p class="proText mb-0">[8 seconds]</p>
-                            <p class="proName text-nowrap mb-0">코튼 라운드넥 볼륨 소매 니트 - 블루</p>
-                            <p class="proPrice">49,000</p>
-                        </div>
-                    </div>
-                    <div class="swiper-slide"><img src="./img/new1.jpg" alt="">
-                        <div class="proDes col-12">
-                            <p class="proText mb-0">[8 seconds]</p>
-                            <p class="proName text-nowrap mb-0">코튼 라운드넥 볼륨 소매 니트 - 블루</p>
-                            <p class="proPrice">49,000</p>
-                        </div>
-                    </div>
-                    <div class="swiper-slide"><img src="./img/new1.jpg" alt="">
-                        <div class="proDes col-12">
-                            <p class="proText mb-0">[8 seconds]</p>
-                            <p class="proName text-nowrap mb-0">코튼 라운드넥 볼륨 소매 니트 - 블루</p>
-                            <p class="proPrice">49,000</p>
-                        </div>
-                    </div>
-                    <div class="swiper-slide"><img src="./img/new1.jpg" alt="">
-                        <div class="proDes col-12">
-                            <p class="proText mb-0">[8 seconds]</p>
-                            <p class="proName text-nowrap mb-0">코튼 라운드넥 볼륨 소매 니트 - 블루</p>
-                            <p class="proPrice">49,000</p>
-                        </div>
-                    </div>
-                    <div class="swiper-slide"><img src="./img/new1.jpg" alt="">
-                        <div class="proDes col-12">
-                            <p class="proText mb-0">[8 seconds]</p>
-                            <p class="proName text-nowrap mb-0">코튼 라운드넥 볼륨 소매 니트 - 블루</p>
-                            <p class="proPrice">49,000</p>
-                        </div>
-                    </div>
-                    <div class="swiper-slide"><img src="./img/new1.jpg" alt="">
-                        <div class="proDes col-12">
-                            <p class="proText mb-0">[8 seconds]</p>
-                            <p class="proName text-nowrap mb-0">코튼 라운드넥 볼륨 소매 니트 - 블루</p>
-                            <p class="proPrice">49,000</p>
-                        </div>
-                    </div>
-                    <div class="swiper-slide"><img src="./img/new1.jpg" alt="">
-                        <div class="proDes col-12">
-                            <p class="proText mb-0">[8 seconds]</p>
-                            <p class="proName text-nowrap mb-0">코튼 라운드넥 볼륨 소매 니트 - 블루</p>
-                            <p class="proPrice">49,000</p>
-                        </div>
-                    </div>
-                    <div class="swiper-slide"><img src="./img/new1.jpg" alt="">
-                        <div class="proDes col-12">
-                            <p class="proText mb-0">[8 seconds]</p>
-                            <p class="proName text-nowrap mb-0">코튼 라운드넥 볼륨 소매 니트 - 블루</p>
-                            <p class="proPrice">49,000</p>
-                        </div>
-                    </div>
-                    <div class="swiper-slide"><img src="./img/new1.jpg" alt="">
-                        <div class="proDes col-12">
-                            <p class="proText mb-0">[8 seconds]</p>
-                            <p class="proName text-nowrap mb-0">코튼 라운드넥 볼륨 소매 니트 - 블루</p>
-                            <p class="proPrice">49,000</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="centerbox boxtext d-flex justify-content-center align-items-center">
-                    <a href="">신상품 바로가기</a>
-                </div>
-            </div>
+        </div>
 
 
     </section>
     
     <section id="lookBook" class="container-1824">
-        <div class="d-flex align-items-start">
-
-            <div class=" d-flex position-relative  col-4 ">
-                <a href=""><img src="./img/lookBook1.jpg" alt="" class="img-fluid"></a>
-                <div class=" lookBookText position-absolute d-flex flex-column justify-content-center align-items-center">
-                    <p class="text8seconds mb-0">[8 seconds]  <span class="textdes d-block">UNI8 in Tokyo</span></p>
-                    
-                </div>
-            </div>
-
-            <div class=" d-flex position-relative col-4 ">
-                <a href=""><img src="./img/lookBook3.jpg" alt="" class="img-fluid"></a>
-                <div class=" lookBookText position-absolute d-flex flex-column justify-content-center align-items-center">
-                    <p class="text8seconds mb-0">[8 seconds]<span class="textdes d-block">이달의 키워드</span></p>
+        <div class="lookbookdiv d-flex justify-content-between">
+            <div class="d-flex flex-column justify-content-between align-items-center">
+                <div class="position-relative pb-5">
+                    <a href=""><img src="./img/lookBook1.jpg" alt="" class="img-fluid"></a>
+                    <div class=" lookBookText position-absolute d-flex flex-column justify-content-center align-items-center">
+                        <p class="text8seconds mb-0">[8 seconds]  <span class="textdes d-block">UNI8 in Tokyo</span></p> 
                     </div>
-            </div>
-
-            <div class=" d-flex position-relative  col-4">
-                <a href=""><img src="./img/lookBook5.jpg" alt="" class="img-fluid"></a>
-                <div class=" lookBookText position-absolute d-flex flex-column justify-content-center align-items-center">
-                    <p class="text8seconds mb-0">[8 seconds]<span class="textdes d-block">다채로운 아우터 지침서</span></p>
                 </div>
-            </div>
-        </div>
-
-        <div class=" d-flex align-items-start">
-            <div class="d-flex position-relative  col-4">
-                <a href=""><img src="./img/lookBook2.jpg" alt="" class="img-fluid"></a>
+                <div class="position-relative">
+                    <a href=""><img src="./img/lookBook2.jpg" alt="" class="img-fluid"></a>
                     <div class=" lookBookText position-absolute d-flex flex-column justify-content-center align-items-center">
                         <p class="text8seconds mb-0">[8 seconds] <span class="textdes d-block">결국엔 니트, 취향 찾기</span></p>
                     </div>
-            </div>
-
-            <div class=" imgUp d-flex position-relative  col-4">
-                <a href=""><img src="./img/lookBook4.jpg" alt="" class="img-fluid"></a>
-                <div class=" lookBookText position-absolute d-flex flex-column justify-content-center align-items-center">
-                    <p class="textdes mb-0">Essential Lookbook  <span class="textdes d-block">덜어낼수록 더해지는 멋, 기본에 충실한</span></p> 
                 </div>
             </div>
-
-            <div class=" d-flex position-relative  col-4">
-                <a href=""><img src="./img/lookBook6.jpg" alt="" class="img-fluid"></a>
-                <div class=" lookBookText position-absolute d-flex flex-column justify-content-center align-items-center">
-                    <p class="text8seconds mb-0">[8 seconds] <span class="textdes d-block">캐주얼한 일상을 담다</span></p>
+           <div class="d-flex flex-column justify-content-between align-items-center">
+                <div class="position-relative pb-5">
+                    <a href=""><img src="./img/lookBook3.jpg" alt="" class="img-fluid"></a>
+                    <div class=" lookBookText position-absolute d-flex flex-column justify-content-center align-items-center">
+                        <p class="text8seconds mb-0">[8 seconds]<span class="textdes d-block">이달의 키워드</span></p>
+                    </div>
                 </div>
-            </div>
+                <div class="position-relative">
+                    <a href=""><img src="./img/lookBook4.jpg" alt="" class="img-fluid"></a>
+                    <div class=" lookBookText position-absolute d-flex flex-column justify-content-center align-items-center">
+                        <p class="textdes mb-0">Essential Lookbook  <span class="textdes d-block">덜어낼수록 더해지는 멋, 기본에 충실한</span></p> 
+                    </div>
+                </div>
+           </div>  
+           <div class="d-flex flex-column justify-content-between align-items-center">
+                <div class="position-relative ">
+                    <a href=""><img src="./img/lookBook5.jpg" alt="" class="img-fluid"></a>
+                    <div class=" lookBookText position-absolute d-flex flex-column justify-content-center align-items-center">
+                        <p class="text8seconds mb-0">[8 seconds]<span class="textdes d-block">다채로운 아우터 지침서</span></p>
+                    </div>
+                </div>
+                <div class="position-relative">
+                    <a href=""><img src="./img/lookBook6.jpg" alt="" class="img-fluid"></a>
+                    <div class=" lookBookText position-absolute d-flex flex-column justify-content-center align-items-center">
+                        <p class="text8seconds mb-0">[8 seconds] <span class="textdes d-block">캐주얼한 일상을 담다</span></p>
+                    </div>
+                </div>
+           </div>
         </div>
     </section>
 
