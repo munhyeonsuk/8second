@@ -22,7 +22,6 @@ body a {
   display: block;
   top: 60%;
   left: 35%;
-  height: 60vh;
 }
 .mainimgtext .mainimgtext1 {
   color: #FFF;
@@ -40,6 +39,10 @@ body a {
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+}
+
+.tabcon {
+  display: none;
 }
 
 .proText {

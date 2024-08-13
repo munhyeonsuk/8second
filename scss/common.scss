@@ -9,6 +9,7 @@ body{
     }
 }
 
+
 .container-1400{
     max-width: 1400px;
     width: 100%;
@@ -25,8 +26,6 @@ body{
     display: block;
     top: 60%;
     left: 35%;
-
-    height: 60vh;
     .mainimgtext1{
         color: #FFF;
         text-align: center;
@@ -44,6 +43,9 @@ body{
         font-weight: 600;
         line-height: normal;
     }
+}
+.tabcon{
+    display: none;
 }
 
 //신상품, 랭킹

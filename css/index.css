@@ -81,7 +81,7 @@
 
 #new {
   margin-bottom: 50px;
-  height: 500px;
+  height: 730px;
 }
 #new .swiper {
   width: 100%;
@@ -113,10 +113,7 @@
   display: flex;
   justify-content: center;
 }
-#newTab li {
-  width: 50%;
-}
-#newTab li button {
+#newTab li a {
   display: block;
   border: 0;
   background: none;
@@ -136,6 +133,7 @@
 }
 
 .centerbox {
+  z-index: 1;
   position: relative;
   left: 50%;
   transform: translate(-50%);
@@ -173,14 +171,17 @@
   flex-shrink: 0;
   background-color: black;
   color: white;
+  position: absolute;
   top: 0;
   left: 0;
-  color: #FFF;
   font-family: Arial;
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 #ranking .swiper-slide .proDes {
   text-align: left;
