@@ -45,7 +45,7 @@
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/common.css">
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-    <script src="./index.js"></script>
+    <script src="./js/index.js"></script>
 
 </head>
 <body>
@@ -176,19 +176,19 @@
     </div>
     </section>
 
-    <section id="new" class=" container-1400 py-5 tabcontent">
-        <div class="container text-center py-5">
+    <section id="new" class="tabcontent container-1400 py-5 ">
+        <div class=" text-center py-5">
             <h2 class="mb-0 ">신상품</h2>
-            <ul id="newTab" class="p-0 mt-5 tabbtn">
-                <li class="on d-flex justify-content-end mb-5 px-3">
-                    <a href="#w_cont">여성</a>                                      
+            <ul class="tabbtn p-0 mt-3 d-flex justify-content-center align-items-center ">
+                <li class="on bar mb-3">
+                    <a href="#w_cont" >여성</a>                                      
                 </li>
-                <li class="d-flex justify-content-start mb-5 px-3">
+                <li class="d-flex mb-3">
                     <a href="#m_cont">남성</a>                   
                 </li>
             </ul>
             <div>
-                <div class="newslide tabcon d-block" id="w_cont">
+                <div class="tabcon d-block" id="w_cont">
                     <div class="swiper SwiperNew">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide"><img src="./img/new1.jpg" alt="">
@@ -264,7 +264,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="newslide tabcon" id="m_cont">
+                <div class="tabcon" id="m_cont">
                     <div class="swiper SwiperNew">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide"><img src="./img/new2.jpg" alt="">
@@ -341,15 +341,17 @@
                     </div>
                 </div>
             </div>
-            <div class="centerbox boxtext d-flex justify-content-center align-items-center">
-                <a href="">신상품 바로가기</a>
+            <div class=" py-5">
+                <div class="centerbox d-flex justify-content-center align-items-center ">
+                    <a href="">신상품 바로가기</a>
+                </div>
             </div>
         </div>
 
 
     </section>
     
-    <section id="lookBook" class="container-1824">
+    <section id="lookBook" class="container-1824 ">
         <div class=" d-flex justify-content-between">
             <div class="d-flex flex-column justify-content-between align-items-center">
                 <div class="position-relative pb-5">
@@ -396,26 +398,23 @@
         </div>
     </section>
 
-    <section id="ranking" class="position-relative container-1400 py-5  tabcontent">
-
-        
-        <div class="container text-center py-5">
+    <section id="ranking" class="position-relative container-1400  py-5  tabcontent"> 
+        <div class="text-center py-5">
             <h2 class="mb-0 ">랭킹</h2>
-            <ul id="rangTab" class="p-0 mt-5 tabbtn">
-                <li class="on d-flex justify-content-end mb-5 px-3">
+            <ul id="rangTab" class="tabbtn p-0 mt-3 d-flex justify-content-center align-items-center ">
+                <li class="on bar mb-3 ">
                     <a href="#w_cont2">여성</a>                                      
                 </li>
-                <li class="d-flex justify-content-start mb-5 px-3">
+                <li class="d-flex mb-3 ">
                     <a href="#m_cont2">남성</a>                   
                 </li>
             </ul>
         </div>
         <div>
-            <div class="swiper SwiperRank d-block tabcon" id="w_cont2">
+            <div class="tabcon swiper SwiperRank d-block " id="w_cont2">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <img src="./img/ranking1.jpg" alt="" class="position-relative">
-                        <div class="ranknum position-absolute">1</div>
+                    <div class="swiper-slide ranknum" >
+                        <img src="./img/ranking1.jpg" alt="" >
                         <div class="proDes col-12">
                             <p class="proText mb-0">[8 seconds]</p>
                             <p class="proName text-nowrap mb-0">코튼 라운드넥 볼륨 소매 니트 - 블루</p>
@@ -426,9 +425,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide">
-                        <img src="./img/ranking1.jpg" alt="" class="position-relative">
-                        <div class="ranknum position-absolute">2</div>
+                    <div class="swiper-slide ranknum"  >
+                        <img src="./img/ranking1.jpg" alt="">
                         <div class="proDes col-12">
                             <p class="proText mb-0">[8 seconds]</p>
                             <p class="proName text-nowrap mb-0">코튼 라운드넥 볼륨 소매 니트 - 블루</p>
@@ -439,9 +437,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide">
-                        <img src="./img/ranking1.jpg" alt="" class="position-relative">
-                        <div class="ranknum position-absolute">3</div>
+                    <div class="swiper-slide ranknum">
+                        <img src="./img/ranking1.jpg" alt="">
                         <div class="proDes col-12">
                             <p class="proText mb-0">[8 seconds]</p>
                             <p class="proName text-nowrap mb-0">코튼 라운드넥 볼륨 소매 니트 - 블루</p>
@@ -452,9 +449,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide">
-                        <img src="./img/ranking1.jpg" alt="" class="position-relative">
-                        <div class="ranknum position-absolute">4</div>
+                     <div class="swiper-slide ranknum">
+                        <img src="./img/ranking1.jpg" alt="" >
                         <div class="proDes col-12">
                             <p class="proText mb-0">[8 seconds]</p>
                             <p class="proName text-nowrap mb-0">코튼 라운드넥 볼륨 소매 니트 - 블루</p>
@@ -465,9 +461,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide">
-                        <img src="./img/ranking1.jpg" alt="" class="position-relative">
-                        <div class="ranknum position-absolute">5</div>
+                    
+                    <div class="swiper-slide ranknum">
+                        <img src="./img/ranking1.jpg" alt="">
                         <div class="proDes col-12">
                             <p class="proText mb-0">[8 seconds]</p>
                             <p class="proName text-nowrap mb-0">코튼 라운드넥 볼륨 소매 니트 - 블루</p>
@@ -478,9 +474,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide">
-                        <img src="./img/ranking1.jpg" alt="" class="position-relative">
-                        <div class="ranknum position-absolute">6</div>
+                    <div class="swiper-slide ranknum">
+                        <img src="./img/ranking1.jpg" alt="">
                         <div class="proDes col-12">
                             <p class="proText mb-0">[8 seconds]</p>
                             <p class="proName text-nowrap mb-0">코튼 라운드넥 볼륨 소매 니트 - 블루</p>
@@ -491,9 +486,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide">
-                        <img src="./img/ranking1.jpg" alt="" class="position-relative">
-                        <div class="ranknum position-absolute">7</div>
+                    <div class="swiper-slide ranknum">
+                        <img src="./img/ranking1.jpg" alt="" >
                         <div class="proDes col-12">
                             <p class="proText mb-0">[8 seconds]</p>
                             <p class="proName text-nowrap mb-0">코튼 라운드넥 볼륨 소매 니트 - 블루</p>
@@ -504,9 +498,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide">
-                        <img src="./img/ranking1.jpg" alt="" class="position-relative">
-                        <div class="ranknum position-absolute">8</div>
+                    <div class="swiper-slide ranknum">
+                        <img src="./img/ranking1.jpg" alt="">
                         <div class="proDes col-12">
                             <p class="proText mb-0">[8 seconds]</p>
                             <p class="proName text-nowrap mb-0">코튼 라운드넥 볼륨 소매 니트 - 블루</p>
@@ -517,9 +510,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide">
-                        <img src="./img/ranking1.jpg" alt="" class="position-relative">
-                        <div class="ranknum position-absolute">9</div>
+                    <div class="swiper-slide ranknum">
+                        <img src="./img/ranking1.jpg" alt="" >
                         <div class="proDes col-12">
                             <p class="proText mb-0">[8 seconds]</p>
                             <p class="proName text-nowrap mb-0">코튼 라운드넥 볼륨 소매 니트 - 블루</p>
@@ -530,9 +522,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide">
-                        <img src="./img/ranking1.jpg" alt="" class="position-relative">
-                        <div class="ranknum position-absolute">10</div>
+                    <div class="swiper-slide ranknum">
+                        <img src="./img/ranking1.jpg" alt="" >
                         <div class="proDes col-12">
                             <p class="proText mb-0">[8 seconds]</p>
                             <p class="proName text-nowrap mb-0">코튼 라운드넥 볼륨 소매 니트 - 블루</p>
@@ -542,14 +533,13 @@
                                 <p class="proPrice mb-0">49,000</p>
                             </div>
                         </div>
-                    </div>
+                    </div> 
                 </div>
             </div>
-            <div class="swiper SwiperRank tabcon" id="m_cont2">
+            <div class="tabcon swiper SwiperRank " id="m_cont2">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <img src="./img/ranking1.jpg" alt="" class="position-relative">
-                        <div class="ranknum position-absolute">1</div>
+                    <div class="swiper-slide ranknum">
+                        <img src="./img/ranking2.jpg" alt="" >
                         <div class="proDes col-12">
                             <p class="proText mb-0">[8 seconds]</p>
                             <p class="proName text-nowrap mb-0">코튼 라운드넥 볼륨 소매 니트 - 블루</p>
@@ -560,9 +550,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide">
-                        <img src="./img/ranking1.jpg" alt="" class="position-relative">
-                        <div class="ranknum position-absolute">2</div>
+                    <div class="swiper-slide ranknum">
+                        <img src="./img/ranking1.jpg" alt="">
                         <div class="proDes col-12">
                             <p class="proText mb-0">[8 seconds]</p>
                             <p class="proName text-nowrap mb-0">코튼 라운드넥 볼륨 소매 니트 - 블루</p>
@@ -573,9 +562,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide">
-                        <img src="./img/ranking1.jpg" alt="" class="position-relative">
-                        <div class="ranknum position-absolute">3</div>
+                    <div class="swiper-slide ranknum">
+                        <img src="./img/ranking1.jpg" alt="" >
                         <div class="proDes col-12">
                             <p class="proText mb-0">[8 seconds]</p>
                             <p class="proName text-nowrap mb-0">코튼 라운드넥 볼륨 소매 니트 - 블루</p>
@@ -586,9 +574,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide">
-                        <img src="./img/ranking1.jpg" alt="" class="position-relative">
-                        <div class="ranknum position-absolute">4</div>
+                    <div class="swiper-slide ranknum">
+                        <img src="./img/ranking1.jpg" alt="" >
                         <div class="proDes col-12">
                             <p class="proText mb-0">[8 seconds]</p>
                             <p class="proName text-nowrap mb-0">코튼 라운드넥 볼륨 소매 니트 - 블루</p>
@@ -599,9 +586,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide">
-                        <img src="./img/ranking1.jpg" alt="" class="position-relative">
-                        <div class="ranknum position-absolute">5</div>
+                    <div class="swiper-slide ranknum">
+                        <img src="./img/ranking1.jpg" alt="" >
                         <div class="proDes col-12">
                             <p class="proText mb-0">[8 seconds]</p>
                             <p class="proName text-nowrap mb-0">코튼 라운드넥 볼륨 소매 니트 - 블루</p>
@@ -612,9 +598,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide">
-                        <img src="./img/ranking1.jpg" alt="" class="position-relative">
-                        <div class="ranknum position-absolute">6</div>
+                    <div class="swiper-slide ranknum">
+                        <img src="./img/ranking1.jpg" alt="" >
                         <div class="proDes col-12">
                             <p class="proText mb-0">[8 seconds]</p>
                             <p class="proName text-nowrap mb-0">코튼 라운드넥 볼륨 소매 니트 - 블루</p>
@@ -625,9 +610,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide">
-                        <img src="./img/ranking1.jpg" alt="" class="position-relative">
-                        <div class="ranknum position-absolute">7</div>
+                    <div class="swiper-slide ranknum">
+                        <img src="./img/ranking1.jpg" alt="" >
                         <div class="proDes col-12">
                             <p class="proText mb-0">[8 seconds]</p>
                             <p class="proName text-nowrap mb-0">코튼 라운드넥 볼륨 소매 니트 - 블루</p>
@@ -638,9 +622,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide">
-                        <img src="./img/ranking1.jpg" alt="" class="position-relative">
-                        <div class="ranknum position-absolute">8</div>
+                    <div class="swiper-slide ranknum">
+                        <img src="./img/ranking1.jpg" alt="">
                         <div class="proDes col-12">
                             <p class="proText mb-0">[8 seconds]</p>
                             <p class="proName text-nowrap mb-0">코튼 라운드넥 볼륨 소매 니트 - 블루</p>
@@ -651,9 +634,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide">
-                        <img src="./img/ranking1.jpg" alt="" class="position-relative">
-                        <div class="ranknum position-absolute">9</div>
+                    <div class="swiper-slide ranknum">
+                        <img src="./img/ranking1.jpg" alt="" >
                         <div class="proDes col-12">
                             <p class="proText mb-0">[8 seconds]</p>
                             <p class="proName text-nowrap mb-0">코튼 라운드넥 볼륨 소매 니트 - 블루</p>
@@ -664,9 +646,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide">
-                        <img src="./img/ranking1.jpg" alt="" class="position-relative">
-                        <div class="ranknum position-absolute">10</div>
+                    <div class="swiper-slide ranknum">
+                        <img src="./img/ranking1.jpg" alt="" >
                         <div class="proDes col-12">
                             <p class="proText mb-0">[8 seconds]</p>
                             <p class="proName text-nowrap mb-0">코튼 라운드넥 볼륨 소매 니트 - 블루</p>
@@ -680,10 +661,11 @@
                 </div>
             </div>
         </div>
-        
-        
-        <div class="centerbox boxtext d-flex justify-content-center align-items-center">
-            <a href="">랭킹 바로가기</a>
+
+        <div class="py-5">
+            <div class="centerbox d-flex justify-content-center align-items-center">
+                <a href="">랭킹 바로가기</a>
+            </div>
         </div>
     </section>
     
@@ -704,10 +686,10 @@
     </section>
 
     <section id="project">
-        <div class="container text-center container-1400">
-            <h2 class="mb-5">기획전</h2>
-            <div class="row gx-3">
-                <div class="col-6">
+        <div class=" text-center container-1400 py-5">
+            <h2 class="py-5">기획전</h2>
+            <div class="gap d-flex pb-5">
+                <div>
                     <img src="./img/project1.jpg" alt="" class="img-fluid">
                     <div class="projuectDes d-flex justify-content-between align-items-center">
                         <div class="projectText ms-4">
@@ -716,12 +698,12 @@
                             <p class="projectText3 mb-4">X VATA, HOWL</p>
                         </div>
                         <div class="sidebox me-4 d-flex justify-content-center align-items-center">
-                            <a>신상품 바로가기</a>
+                            <a href="">기획전 바로가기</a>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-6 ">
+                <div>
                     <img src="./img/project2.jpg" alt="" class="img-fluid">
                     <div class="projuectDes d-flex justify-content-between align-items-center">
                         <div class="projectText ms-4">
@@ -730,7 +712,7 @@
                             <p class="projectText3 mb-4">with REDLIC, CAPRI</p>
                         </div>
                         <div class=" sidebox me-4 d-flex justify-content-center align-items-center">
-                            <a>신상품 바로가기</a>
+                            <a href="">기획전 바로가기</a>
                         </div>
                     </div>
                 </div>
@@ -738,35 +720,32 @@
         </div>
     </section>
 
-    <section id="quick">
-
-    </section>
-
-    <footer id="ft">
-        <div class="container bs-gray-600 mt-3">
+    <footer id="ft" class="py-5">
+        <div class="gap container-1400 d-flex flex-column">
             <div class="footerMenu d-flex justify-content-between">
-            <ul class="d-flex ps-0 mb-0">
-                    <li class="me-2"><a href="">회사소개</a></li>
-                    <li class="mx-2"><a href="">이용약관</a></li>
-                    <li class="mx-2"><a href="">개인정보처리방침</a></li>
-                    <li class="mx-2"><a href="">이메일무단수집거부</a></li>
-                    <li class="mx-2"><a href="">단체주문</a></li>
-                    <li class="mx-2"><a href="">제휴문의</a></li>
-                    <li class="mx-2"><a href="">입점신청</a></li>
-                    <li class="mx-2"><a href="">멤버십안내</a></li>
+                <ul class="d-flex ps-0 mb-0">
+                        <li class="me-2"><a href="">회사소개</a></li>
+                        <li class="mx-2"><a href="">이용약관</a></li>
+                        <li class="mx-2"><a href="">개인정보처리방침</a></li>
+                        <li class="mx-2"><a href="">이메일무단수집거부</a></li>
+                        <li class="mx-2"><a href="">단체주문</a></li>
+                        <li class="mx-2"><a href="">제휴문의</a></li>
+                        <li class="mx-2"><a href="">입점신청</a></li>
+                        <li class="mx-2"><a href="">멤버십안내</a></li>
                 </ul>
 
-                <ul class="footerLink d-flex">
+                <ul class="footerLink d-flex mb-0 p-0">
                     <li class="mx-2"><a href="">고객센터</a></li>
                     <li class="mx-2"><a href="">공지사항</a></li>
-                    <li class="mx-2"><a href="">매장찾기</a></li>
+                    <li class="mx-2 me-lg-0"><a href="">매장찾기</a></li>
                 </ul>
             </div>
-            <p>삼성물산(주)패션부문</p>
-            <p class="des">주소: 서울특별시 강남구 남부순환로 2806(도곡동) 대표: 오세철 외 2명사업자 등록번호: 101-85-43600 사업자정보확인 통신판매업 신고번호: 제 2015-서울강남-02894호스팅서비스: 삼성물산(주)패션부문 <br>
-                KG모빌리언스 구매안전(에스크로)서비스 서비스 가입사실 확인 고객님의 안전거래를 위해 현금 등으로 5만원 이상 결제 시 저희 쇼핑몰에서 가입한 구매안전(에스크로) 서비스를 이용하실 수 있습니다. <br>
-                대표전화 1599-0007(전국) 080-700-1472(수신자부담)</p>
-            <ul class="d-flex ps-0">
+            <p class="mb-0">삼성물산(주)패션부문</p>
+            <p class="des mb-0 d-none d-xl-block ">주소: 서울특별시 강남구 남부순환로 2806(도곡동) 대표: 오세철 외 2명사업자 등록번호: 101-85-43600 사업자정보확인 통신판매업 신고번호: 제 2015-서울강남-02894호스팅서비스: 삼성물산(주) <br>
+                패션부문 KG모빌리언스 구매안전(에스크로)서비스 서비스 가입사실 확인 고객님의 안전거래를 위해 현금 등으로 5만원 이상 결제 시 저희 쇼핑몰에서 가입한 구매안전(에스크로) 서비스를 이용하실 수 있습니다. <br>
+                대표전화 1599-0007(전국) 080-700-1472(수신자부담)
+            </p>
+            <ul class="d-flex ps-0 mb-0">
                 <li class="me-2 "><img src="./img/youtube.svg" alt=""></li>
                 <li><img src="./img/instagram.svg" alt=""></li>
             </ul>

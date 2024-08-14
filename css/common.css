@@ -18,12 +18,12 @@ body a {
   margin: 0 auto;
 }
 
-.mainimgtext {
+#mainbanner .mainimgtext {
   display: block;
   top: 60%;
   left: 35%;
 }
-.mainimgtext .mainimgtext1 {
+#mainbanner .mainimgtext .mainimgtext1 {
   color: #FFF;
   text-align: center;
   font-family: "Noto Sans KR";
@@ -32,13 +32,23 @@ body a {
   font-weight: 600;
   line-height: normal;
 }
-.mainimgtext .mainimgtext2 {
+#mainbanner .mainimgtext .mainimgtext2 {
   color: #FFF;
   font-family: "Noto Sans KR";
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+}
+
+.bar::after {
+  content: "|";
+  color: black;
+  padding: 0px 12px;
+}
+
+.on {
+  font-weight: bold;
 }
 
 .tabcon {
@@ -69,13 +79,6 @@ body a {
   letter-spacing: -1.8px;
 }
 
-.boxtext {
-  font-size: 16px;
-  font-weight: 600;
-  line-height: normal;
-  letter-spacing: -1.6px;
-}
-
 .oriproPrice {
   color: #9D9D9D;
   font-family: "Noto Sans KR";
@@ -97,7 +100,29 @@ body a {
   letter-spacing: -1.4px;
 }
 
-.text8seconds {
+.centerbox {
+  z-index: 1;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  width: 180px;
+  height: 50px;
+  border: solid 1px black;
+}
+.centerbox:hover {
+  background-color: black;
+}
+.centerbox:hover a {
+  color: white;
+}
+.centerbox a {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -1.6px;
+}
+
+#lookBook .text8seconds {
   color: white;
   font-size: 13px;
   font-style: normal;
@@ -105,8 +130,7 @@ body a {
   line-height: normal;
   letter-spacing: -1.3px;
 }
-
-.textdes {
+#lookBook .textdes {
   color: white;
   font-size: 18px;
   font-style: normal;
@@ -115,7 +139,7 @@ body a {
   letter-spacing: -1.8px;
 }
 
-.projectText1 {
+#project .projectText1 {
   color: white;
   font-size: 12px;
   font-style: normal;
@@ -123,8 +147,7 @@ body a {
   line-height: normal;
   letter-spacing: -1.2px;
 }
-
-.projectText2 {
+#project .projectText2 {
   color: white;
   font-size: 34px;
   font-style: normal;
@@ -132,12 +155,30 @@ body a {
   line-height: normal;
   letter-spacing: -3.4px;
 }
-
-.projectText3 {
+#project .projectText3 {
   color: white;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
+  line-height: normal;
+  letter-spacing: -1.6px;
+}
+#project .sidebox {
+  width: 180px;
+  height: 50px;
+  border: solid 1px white;
+}
+#project .sidebox:hover {
+  background-color: white;
+}
+#project .sidebox:hover a {
+  color: #C70125;
+}
+#project .sidebox a {
+  color: white;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
   line-height: normal;
   letter-spacing: -1.6px;
 }
