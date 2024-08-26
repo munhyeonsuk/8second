@@ -47,6 +47,9 @@ $mainColor : #C70125;
             }
         }
     }
+    .allbtn{
+        display: none;
+    }
     .member{
         font-size: 13px;
         font-weight: 500;
@@ -71,7 +74,7 @@ $mainColor : #C70125;
         .maintext1{
             color: #FFF;
             font-family: "Noto Sans KR";
-            font-size: 40px;
+            font-size: 3rem;
             font-style: normal;
             font-weight: 500;
             line-height: normal;
@@ -80,7 +83,7 @@ $mainColor : #C70125;
         .maintext2{
             color: #FFF;
             font-family: "Noto Sans KR";
-            font-size: 24px;
+            font-size: 2rem;
             font-style: normal;
             font-weight: 500;
             line-height: normal;
@@ -227,7 +230,7 @@ $mainColor : #C70125;
             line-height: normal;
             letter-spacing: -2.4px;
             position: relative;
-            top: 200px;
+            top: 80%;
         }
     }
     
@@ -285,10 +288,26 @@ $mainColor : #C70125;
             height: 250px;
         }
         .maintext1{
-            font-size: 30px;
+            font-size: 2.5rem !important;
         }
         .maintext2{
-            font-size: 14px;
+            font-size: 1.5rem !important;
         }
+    }
+}
+
+
+@media (max-width:1120px) {
+    #hd{
+        .allbtn{
+            display: block;
+        }
+        .gnb, .member{display: none !important;}
+    }
+}
+
+@media (max-width:1400px) {
+    #hd{
+        
     }
 }

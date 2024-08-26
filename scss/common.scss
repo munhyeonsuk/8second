@@ -25,11 +25,13 @@ body{
 #mainbanner{
     .mainimgtext{
         display: block;
-        top: 60%;
-        left: 35%;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -60%);
+        text-align: center;
+        white-space: nowrap;
         .mainimgtext1{
             color: #FFF;
-            text-align: center;
             font-family: "Noto Sans KR";
             font-size: 24px;
             font-style: normal;
