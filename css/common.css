@@ -18,7 +18,7 @@ body a {
   margin: 0 auto;
 }
 
-#mainbanner .mainimgtext {
+.mainimgtext {
   display: block;
   top: 70%;
   left: 50%;
@@ -26,7 +26,7 @@ body a {
   text-align: center;
   white-space: nowrap;
 }
-#mainbanner .mainimgtext .mainimgtext1 {
+.mainimgtext .mainimgtext1 {
   color: #FFF;
   font-family: "Noto Sans KR";
   font-size: 24px;
@@ -34,7 +34,7 @@ body a {
   font-weight: 600;
   line-height: normal;
 }
-#mainbanner .mainimgtext .mainimgtext2 {
+.mainimgtext .mainimgtext2 {
   color: #FFF;
   font-family: "Noto Sans KR";
   font-size: 16px;

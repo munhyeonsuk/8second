@@ -92,6 +92,9 @@ $mainColor : #C70125;
     }
   
 }
+#Mmainbanner{
+    display: none;
+}
 
 
 #lookBook{
@@ -282,18 +285,27 @@ $mainColor : #C70125;
 }
 
 
-@media (max-width:992px){
-    #mainbanner{
-        .mainbannerbox{
-            height: 250px;
-        }
-        .maintext1{
-            font-size: 2.5rem !important;
-        }
-        .maintext2{
-            font-size: 1.5rem !important;
-        }
+@media (max-width:575px) {
+   
+}
+
+@media (max-width:767px) {
+    
+}
+
+@media (max-width:991px){
+   #Mmain{
+    .mainimgtext1{
+        font-size: 3rem;
     }
+    .mainimgtext2{
+        font-size: 2rem;
+    }
+   }
+}
+
+@media (max-width:1024px) {
+
 }
 
 
