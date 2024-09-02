@@ -208,10 +208,15 @@
 }
 
 #video .videoImg {
-  display: inline-block;
   position: relative;
 }
-#video .videoImg::before {
+#video .videoImg img {
+  width: 100%;
+}
+#video .videoImg a {
+  display: block;
+}
+#video .videoImg .fullvideo::before {
   position: absolute;
   content: "";
   width: 80px;
@@ -221,7 +226,7 @@
   bottom: 0px;
   z-index: 2;
 }
-#video .videoImg:after {
+#video .videoImg .fullvideo:after {
   position: absolute;
   content: "";
   width: 0;
